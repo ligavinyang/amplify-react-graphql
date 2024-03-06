@@ -1,0 +1,33 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyreactgraphql-dev-224127-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423266522:role/amplify-amplifyreactgraphql-dev-224127-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423266522:role/amplify-amplifyreactgraphql-dev-224127-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyreactgraphql-dev-224127-deployment",
+      "UnauthRoleName": "amplify-amplifyreactgraphql-dev-224127-unauthRole",
+      "StackName": "amplify-amplifyreactgraphql-dev-224127",
+      "StackId": "arn:aws:cloudformation:us-east-1:637423266522:stack/amplify-amplifyreactgraphql-dev-224127/3c292530-dbbf-11ee-99ed-0ad2ef6bc955",
+      "AmplifyAppId": "d1w2i44izn0zi9"
+    }
+  },
+  "api": {
+    "amplifyreactgraphql": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  }
+}

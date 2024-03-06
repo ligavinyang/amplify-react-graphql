@@ -1,6 +1,5 @@
 {
-  "projectPath": "D:\\Develop\\amplify-react-graphql",
-  "envName": "staging",
+  "projectPath": "D:\\Develop\\amplify-react-graphql\\src",
   "defaultEditor": "vscode",
-  "noUpdateBackend": true
+  "envName": "dev"
 }
