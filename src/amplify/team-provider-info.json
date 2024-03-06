@@ -23,6 +23,17 @@
       "StackName": "amplify-amplifyreactgraphql-dev-224127",
       "StackId": "arn:aws:cloudformation:us-east-1:637423266522:stack/amplify-amplifyreactgraphql-dev-224127/3c292530-dbbf-11ee-99ed-0ad2ef6bc955",
       "AmplifyAppId": "d1w2i44izn0zi9"
+    },
+    "categories": {
+      "auth": {
+        "amplifyreactgraphqlf1eab480": {}
+      },
+      "api": {
+        "amplifyreactgraphql": {}
+      },
+      "storage": {
+        "learningStorage": {}
+      }
     }
   }
 }

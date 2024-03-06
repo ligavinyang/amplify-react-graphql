@@ -1,0 +1,14 @@
+{
+  "resourceName": "learningStorage",
+  "policyUUID": "78c4b569",
+  "bucketName": "learningbucket",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
